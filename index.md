@@ -1,6 +1,11 @@
 # MagicMirror
 A "MagicMirror" is a reflective screen that functions as a mirror and shows electronic graphics.  The elements of the screen are fully customizable and can be used for anything you want. I have made my screen into a mindful learning mirror. 
 
+| **Engineer** | **School** | **Area of Interest** | **Grade** |
+|:--:|:--:|:--:|:--:|
+| Rosemary C | Roedean School| Astrophysics | Junior
+
+
 # First Milestone
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Yf0cqYxd6_s?si=ah7rs5jTVFwmRHP3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
@@ -15,10 +20,6 @@ You should comment out all portions of your portfolio that you have not complete
 <!--- This is an HTML comment in Markdown -->
 <!--- Anything between these symbols will not render on the published site -->
 ```
-
-| **Engineer** | **School** | **Area of Interest** | **Grade** |
-|:--:|:--:|:--:|:--:|
-| Rosemary C | Roedean School| Astrophysics | Junior
 
 **Replace the BlueStamp logo below with an image of yourself and your completed project. Follow the guide [here](https://tomcam.github.io/least-github-pages/adding-images-github-pages-site.html) if you need help.**
 
