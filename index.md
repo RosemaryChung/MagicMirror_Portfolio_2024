@@ -2,6 +2,8 @@
 A "MagicMirror" is a reflective screen that functions as a mirror and shows electronic graphics.  The elements of the screen are fully customizable and can be used for anything you want. I have made my screen into a mindful learning mirror. 
 
 # First Milestone
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Yf0cqYxd6_s?si=ah7rs5jTVFwmRHP3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 I started this project during another summer program abroad. This resulted in huge issues when connecting my devices to the same secure network because I had to register the Raspberry Pi as a non-standard device (essentially I couldn't navigate my Raspberry Pi remotely on my MacBook). I could only connect both devices to a public network- which was a problem since devices were not made discoverable by default (I assume for privacy reasons as it is a public network). I was using the wireless keyboard and the touchscreen to navigate everything (sadly my mouse was dysfunctional).
 
 When I finally returned home, all connections went well so I could finally start remotely editing, removing, and adding modules to my MagicMirror Interface. 
