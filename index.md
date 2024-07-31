@@ -1,5 +1,11 @@
 # MagicMirror
-Replace this text with a brief description (2-3 sentences) of your project. This description should draw the reader in and make them interested in what you've built. You can include what the biggest challenges, takeaways, and triumphs from completing the project were. As you complete your portfolio, remember your audience is less familiar than you are with all that your project entails!
+A "MagicMirror" is a reflective screen that functions as a mirror and shows electronic graphics.  The elements of the screen are fully customizable and can be used for anything you want. I have made my screen into a mindful learning mirror. 
+
+I started this project during another summer program abroad. This resulted in huge issues when connecting my devices to the same secure network because I had to register the Raspberry Pi as a non-standard device (essentially I couldn't navigate my Raspberry Pi remotely on my MacBook). I could only connect both devices to a public network- which was a problem since devices were not made discoverable by default (I assume for privacy reasons as it is a public network). I was using the wireless keyboard and the touchscreen to navigate everything (sadly my mouse was dysfunctional).
+
+When I finally returned home, all connections went well so I could finally start remotely editing, removing, and adding modules to my MagicMirror Interface. 
+
+The first module I tried to add was called MMM-JustForTodayMeditation but it was persistently giving me problems so I resorted to finding other modules to add on the assumption that the code for the JustForTodayMeditation was faulty, outdated, or wrong in some way. Following this, I added the MMM-LearnLanguage module and the MMM-BreathWork module. I doubled the LearnLanguage module just so I could have the dynamic of learning two words from different languages per day.
 
 You should comment out all portions of your portfolio that you have not completed yet, as well as any instructions:
 ```HTML 
