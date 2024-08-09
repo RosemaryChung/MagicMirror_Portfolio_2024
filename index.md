@@ -26,7 +26,9 @@ The first module I tried to add was called MMM-JustForTodayMeditation but it was
 
 For the last milestone, I was mostly adding and customizing modules and figuring out how I wanted to display the mirror. 
 
-I had two options for displaying the mirror: either using the 7" display sent by BlueStamp and adding a frame around it, or using a bigger monitor that isn't being used by anyone in my home. Initially, I wanted to use the bigger monitor because I thought it would embody more of a mirror than the small one would allow for. When I was applying the reflective filmm to the bigger screen, I couldn't apply it smoothly without bumps and bubbles. Because of this I just ended up resorting to applying the film on the smaller display instead. 
+I had two options for displaying the mirror: either using the 7" display sent by BlueStamp and adding a frame around it, or using a bigger monitor that isn't being used by anyone in my home. Initially, I wanted to use the bigger monitor because I thought it would embody more of a mirror than the small one would allow for. When I was applying the reflective film to the bigger screen, I couldn't apply it smoothly without bumps and bubbles. Because of this I just ended up applying the film on the smaller display instead. In the end, I quite prefer the smaller display since I now plan to use this mirror on my bedside table.
+
+When I was adding new modules, I had issues with modules that had "var config". Every time I added them to my code, the display would not load, and as soon as I removed them everything started to work again. I was pretty bummed about that because I wanted to include a dad jokes module which I found super funny. On the topic of modules, when I was making the motion detection code for my proposed gesture-controlled Spotify module, I didn't realise the difference between the code for a motion sensor and for a USB webcam. Because of this, I ended up just scrapping the whole Spotify module and using a pre-existing motion detection module that uses the USB webcam to turn the screen display on/off.
 
 
 # Code
