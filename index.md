@@ -24,7 +24,9 @@ The first module I tried to add was called MMM-JustForTodayMeditation but it was
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/_hrrW1tbz0o?si=uJ8Ln9z1r9JdYbKd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
+For the last milestone, I was mostly adding and customizing modules and figuring out how I wanted to display the mirror. 
 
+I had two options for displaying the mirror: either using the 7" display sent by BlueStamp and adding a frame around it, or using a bigger monitor that isn't being used by anyone in my home. Initially, I wanted to use the bigger monitor because I thought it would embody more of a mirror than the small one would allow for. When I was applying the reflective filmm to the bigger screen, I couldn't apply it smoothly without bumps and bubbles. Because of this I just ended up resorting to applying the film on the smaller display instead. 
 
 
 # Code
