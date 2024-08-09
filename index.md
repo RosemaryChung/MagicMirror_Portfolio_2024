@@ -5,9 +5,8 @@ A "MagicMirror" is a reflective screen that functions as a mirror and shows elec
 |:--:|:--:|:--:|:--:|
 | Rosemary C | Roedean School| Astrophysics | Junior
 
-**Replace the BlueStamp logo below with an image of yourself and your completed project. Follow the guide [here](https://tomcam.github.io/least-github-pages/adding-images-github-pages-site.html) if you need help.**
 
-![Headstone Image](logo.svg)
+![Headstone Image](headstone pic.HEIC)
 
 # First Milestone
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Yf0cqYxd6_s?si=ah7rs5jTVFwmRHP3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -18,11 +17,6 @@ When I finally returned home, all connections went well so I could finally start
 
 The first module I tried to add was called MMM-JustForTodayMeditation but it was persistently giving me problems so I resorted to finding other modules to add on the assumption that the code for the JustForTodayMeditation was faulty, outdated, or wrong in some way. Following this, I added the MMM-LearnLanguage module and the MMM-BreathWork module. I doubled the LearnLanguage module just so I could have the dynamic of learning two words from different languages per day.
 
-You should comment out all portions of your portfolio that you have not completed yet, as well as any instructions:
-```HTML 
-<!--- This is an HTML comment in Markdown -->
-<!--- Anything between these symbols will not render on the published site -->
-```
 
 
 # Final Milestone
