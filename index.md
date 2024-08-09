@@ -6,7 +6,7 @@ A "MagicMirror" is a reflective screen that functions as a mirror and shows elec
 | Rosemary C | Roedean School| Astrophysics | Junior
 
 
-![Headstone Image](headstone pic.HEIC)
+![Headstone Image](/MagicMirror_Portfolio_2024/headstone pic.HEIC)
 
 # First Milestone
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Yf0cqYxd6_s?si=ah7rs5jTVFwmRHP3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
