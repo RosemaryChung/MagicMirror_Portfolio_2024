@@ -32,7 +32,7 @@ When I was adding new modules, I had issues with modules that had "var config". 
 
 
 # Code
-Here's where you'll put your code. The syntax below places it into a block of code. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize it to your project needs. 
+
 
 ```c++
 
@@ -170,5 +170,7 @@ if (typeof module !== "undefined") { module.exports = config; }
 |7-inch LCD Display | Used to show the Raspberrypi interface | $46 | <a href="https://www.amazon.com/Hosyond-Display-1024%C3%97600-Capacitive-Raspberry/dp/B09XKC53NH/ref=sr_1_3?crid=1KKB9WC62OIAD&keywords=raspberry%2Bpi%2Bips&qid=1685911698&s=electronics&sprefix=raspberry%2Bpi%2Bips%2B%2Celectronics%2C87&sr=1-3&th=1"> Link </a> |
 | Mouse & Keyboard | Display navigation | $20 | <a href="https://www.amazon.com/gp/product/B07XDWCLYF/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&th=1"> Link </a> |
 | USB-C to USC adaptor| Needed to flash the SD card | $35 | <a href="https://en.j5create.com/products/jch342e?variant=43997310386425"> Link </a> |
+| Reflective film| Needed to make the screen a "mirror" | $20 | <a href="https://www.takealot.com/klingshield-grey-20-mirror-reflective-window-film-75cm-x-200cm/PLID73886717"> Link </a> |
+| USB webcam| Needed for motion detection | $50 | <a href="https://www.takealot.com/logitech-webcam-brio-100-full-hd-webcam/PLID94054259?gclsrc=aw.ds&gad_source=1&gclid=CjwKCAjw_Na1BhAlEiwAM-dm7O7Q4Pthh4HlmkGSzVuTUwffIgyD-3AbKektb69C6bnrGAyil2oOhRoC5XcQAvD_BwE&gclsrc=aw.ds"> Link </a> |
 
 
