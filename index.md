@@ -35,17 +35,131 @@ When I was adding new modules, I had issues with modules that had "var config". 
 Here's where you'll put your code. The syntax below places it into a block of code. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize it to your project needs. 
 
 ```c++
-void setup() {
-  // put your setup code here, to run once:
-  Serial.begin(9600);
-  Serial.println("Hello World!");
-}
 
-void loop() {
-  // put your main code here, to run repeatedly:
+let config = {
+	address: "localhost",	// Address to listen on, can be:
+							// - "localhost", "127.0.0.1", "::1" to listen on loopback interface
+							// - another specific IPv4/6 to listen on a specific interface
+							// - "0.0.0.0", "::" to listen on any interface
+							// Default, when address config is left out or empty, is "localhost"
+	port: 8080,
+	basePath: "/",	// The URL path where MagicMirror² is hosted. If you are using a Reverse proxy
+									// you must set the sub path here. basePath must end with a /
+	ipWhitelist: ["127.0.0.1", "::ffff:127.0.0.1", "::1"],	// Set [] to allow all IP addresses
+									// or add a specific IPv4 of 192.168.1.5 :
+									// ["127.0.0.1", "::ffff:127.0.0.1", "::1", "::ffff:192.168.1.5"],
+									// or IPv4 range of 192.168.3.0 --> 192.168.3.15 use CIDR format :
+									// ["127.0.0.1", "::ffff:127.0.0.1", "::1", "::ffff:192.168.3.0/28"],
 
-}
-```
+	useHttps: false,			// Support HTTPS or not, default "false" will use HTTP
+	httpsPrivateKey: "",	// HTTPS private key path, only require when useHttps is true
+	httpsCertificate: "",	// HTTPS Certificate path, only require when useHttps is true
+
+	language: "en",
+	locale: "en-US",
+	logLevel: ["INFO", "LOG", "WARN", "ERROR"], // Add "DEBUG" for even more logging
+	timeFormat: 24,
+	units: "metric",
+
+	modules: [
+		{
+			module: "alert",
+		},
+		{
+			module: "updatenotification",
+			position: "top_bar"
+		},
+		{
+			module: "clock",
+			position: "top_left"
+		},
+		{
+			module: "compliments",
+			position: "top_left"
+		},
+		{
+			module: "weather",
+			position: "top_right",
+			config: {
+				weatherProvider: "openmeteo",
+				type: "current",
+				lat: -25.975300,
+				lon: 28.118870
+			}
+		},
+		{
+			module: "weather",
+			position: "top_right",
+			header: "Weather Forecast",
+			config: {
+				weatherProvider: "openmeteo",
+				type: "forecast",
+				lat: -25.975300,
+				lon: 28.118870
+			}
+		},
+		{
+			module: "MMM-Breathwork",
+			position: "bottom_right",
+			size: "400px"
+		},
+		{
+			module: "MMM-learnlanguage",
+			position: "top_left",
+			config: {
+			  language: "italian",
+			  nextWordInterval: 24*60*60*1000,
+			  showpair: "showboth",
+			  toggleInterval: 5*1000,
+			  wordpaircssclassname: "bright medium"
+			}
+		  },
+		  {
+			module: "MMM-learnlanguage",
+			position: "top_left",
+			config: {
+			  language: "japanese",
+			  nextWordInterval: 24*60*1000,
+			  showpair: "showboth",
+			  toggleInterval: 5*1000,
+			  wordpaircssclassname: "bright medium"
+			}
+		  },
+		  {
+			module: 'MMM-Planetarium',
+			position: 'fullscreen_below', //Recommended
+			config: {
+			  latitude:  -25.975300, //Your position
+			  longitude: 28.118870,
+			  az: 0, // Azimuth : 0 means North, 90 means East, 180 means South, ...
+			  panoffset: -0.1, // panning step by AZ
+			  paninterval: 200, // milliseconds. 0 => no pan.
+			  opacity: "70%",
+			}
+		  },
+		  {
+			module: 'MMM-Motion-Detection',
+			config: {
+				// force the use of a usb webcam on raspberry pi
+				useUSBCam: true,
+				// recognition interval in seconds (smaller number = faster but more CPU intensive!)
+				interval: 1,
+				// Notificaiton Delay after movement stops being sensed (in seconds).
+				motionStopDelay: 120,
+				// Threshold for motion detection, smaller numbers means more sensitive
+				detectionThreshold: 1000,
+				// Turn off display when no motion is detected.
+				turnOffDisplay: true
+			}
+		},
+		
+	]
+	
+};
+
+/*************** DO NOT EDIT THE LINE BELOW ***************/
+if (typeof module !== "undefined") { module.exports = config; }
+
 
 # Bill of Materials
 
